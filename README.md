@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="man/figures/logo.png" width="100" align="left" style="margin-right: 15px;">
+  <img src="man/figures/logo.png" width="50" align="left" style="margin-right: 15px;">
   <h1>janitorID</h1>
   <p><strong>Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data</strong></p>
 </p>

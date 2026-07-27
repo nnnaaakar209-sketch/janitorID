@@ -10,12 +10,25 @@
 Mendukung 146 mata uang dari 5 benua: Asia (48), Eropa (44), Afrika (54),
 Amerika (35), dan Oseania (14).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/nnnaaakar209-sketch/janitorID}
+  \item Report bugs at \url{https://github.com/nnnaaakar209-sketch/janitorID/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: Kelompok Data Science 1 \email{ds1@example.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
+\strong{Maintainer}: Kelompok Data Science 1 \email{janitorid.team@example.com} (\href{https://orcid.org/0009-0000-0000-0000}{ORCID})
 
 Authors:
 \itemize{
-  \item Kelompok Data Science 1 \email{ds1@example.com} (\href{https://orcid.org/0000-0000-0000-0000}{ORCID})
+  \item Kelompok Data Science 1 \email{janitorid.team@example.com} (\href{https://orcid.org/0009-0000-0000-0000}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item Sam Firke (Original janitor package author) [contributor]
 }
 
 }

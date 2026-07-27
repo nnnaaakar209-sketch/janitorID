@@ -1,3 +1,5 @@
+![janitorID Logo](man/figures/logo.png)
+
 # janitorID
 
 > **Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**

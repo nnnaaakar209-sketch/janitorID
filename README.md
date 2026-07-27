@@ -53,9 +53,7 @@ Dari package `janitor` asli karya Sam Firke, `janitorID` mempertahankan:
 
 ## 🔧 Instalasi
 
-Anda dapat menginstal:
-
-- versi pengembangan terbaru dari GitHub dengan:
+Anda dapat menginstal versi pengembangan terbaru dari GitHub dengan:
 
 ```r
 # install.packages("remotes")

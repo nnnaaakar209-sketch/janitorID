@@ -1,8 +1,10 @@
-<div align="center">
-  <img src="man/figures/logo.png" width="100">
-  <h1>janitorID</h1>
-  <p><strong>Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data</strong></p>
-</div>
+<img src="man/figures/logo.png" width="80" align="left" style="margin-right: 10px; margin-top: -5px;">
+
+# janitorID
+
+**Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
+
+<br>
 
 Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
 

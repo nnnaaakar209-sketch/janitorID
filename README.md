@@ -1,7 +1,8 @@
-<img src="man/figures/logo.png" width="100" align="left" style="margin-right: 15px;">
+<p align="center">
+  <img src="man/figures/logo.png" width="150">
+</p>
 
 # janitorID
-
 
 > **Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
 

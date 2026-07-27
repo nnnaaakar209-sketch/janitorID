@@ -1,0 +1,29 @@
+
+===========================================================================
+📊 LAPORAN STATISTIK
+   Total N: 32 | Ukuran Tabel: 3 x 3
+===========================================================================
+
+[1] MATRIKS FREKUENSI AKTUAL (O)
+ cyl  3 4 5
+   4  1 8 2
+   6  2 4 1
+   8 12 0 2
+
+[2] MATRIKS NILAI HARAPAN (E)
+     3    4    5
+4 5.16 4.12 1.72
+6 3.28 2.62 1.09
+8 6.56 5.25 2.19
+
+[3] UJI HIPOTESIS CHI-SQUARE
+   X² = 18.0364, df = 4, p-value = 0.001214
+   Cramer's V = 0.5309
+   Keputusan: TOLAK H0 (Ada hubungan)
+
+[4] UJI ASUMSI KELAYAKAN
+   Sel dengan E < 5: 6 (66.67%)
+   Status: ⚠️ PELANGGARAN ASUMSI
+   Rekomendasi: Gabungkan kategori atau gunakan Fisher's Exact Test
+===========================================================================
+

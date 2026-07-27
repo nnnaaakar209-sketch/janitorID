@@ -2,7 +2,7 @@
 
 > **Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
 
-Ilmuwan data, menurut wawancara dan perkiraan para ahli, menghabiskan 50 hingga 80 persen waktu mereka untuk pekerjaan yang lebih "membosankan": mengumpulkan dan membersihkan data sebelum data tersebut siap untuk dieksplorasi.
+Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
 
 – "For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)
 
@@ -10,15 +10,23 @@ Ilmuwan data, menurut wawancara dan perkiraan para ahli, menghabiskan 50 hingga 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-%3E%3D%204.0.0-blue.svg)](https://www.r-project.org/)
 
+`janitorID` memiliki fungsi-fungsi sederhana untuk memeriksa dan membersihkan data kotor. Package ini dibangun dengan mempertimbangkan pengguna R pemula dan menengah serta dioptimalkan untuk kemudahan penggunaan. Pengguna R mahir sebenarnya sudah dapat melakukan banyak tugas ini, tetapi dengan `janitorID` mereka dapat melakukannya lebih cepat dan menghemat energi untuk hal-hal yang lebih menarik.
+
+Fungsi utama `janitorID`:
+
+- 💱 Mengkonversi mata uang secara real-time di 146 mata uang dunia;
+- 🧹 Membersihkan data secara otomatis dengan pipeline komprehensif untuk nilai hilang, outlier, dan duplikat;
+- 📊 Memvisualisasikan kesehatan data dengan dashboard interaktif, heatmap, dan sunburst chart;
+- 📋 Menghasilkan laporan statistik dengan uji Chi-square, Cramer's V, dan Odds Ratio;
+- ✅ Memvalidasi distribusi data kategorik dengan cross-validation.
+
+`janitorID` adalah package yang berorientasi `tidyverse`. Secara spesifik, ia bekerja dengan baik dengan pipe `%>%` dan dioptimalkan untuk membersihkan data yang dibawa dengan package `readr` dan `readxl`.
+
 ---
 
-## 📌 Apa itu janitorID?
+## 📌 Apa yang Diwarisi dari Package `janitor` Asli?
 
-`janitorID` adalah **ekstensi dan modifikasi** dari package `janitor` populer karya Sam Firke. Package ini mewarisi filosofi inti `janitor`—fungsi sederhana dan ramah pengguna untuk memeriksa dan membersihkan data kotor—namun menambahkan **kemampuan baru** untuk analisis mata uang dan penilaian kesehatan data otomatis.
-
-### Apa yang Diwarisi dari Package `janitor` Asli?
-
-Dari package `janitor` asli, `janitorID` mempertahankan:
+Dari package `janitor` asli karya Sam Firke, `janitorID` mempertahankan:
 
 | Fitur | Deskripsi |
 |-------|-----------|
@@ -27,7 +35,9 @@ Dari package `janitor` asli, `janitorID` mempertahankan:
 | **Integrasi Tidyverse** | Kompatibilitas seamless dengan pipe `%>%` dan alur kerja `dplyr` |
 | **Ramah Pengguna** | Dirancang untuk pengguna R pemula hingga menengah |
 
-### Apa yang Ditambahkan/Dimodifikasi di `janitorID`?
+---
+
+## 🆕 Apa yang Ditambahkan di `janitorID`?
 
 `janitorID` memperluas package `janitor` asli dengan **lima kemampuan baru**:
 
@@ -39,21 +49,13 @@ Dari package `janitor` asli, `janitorID` mempertahankan:
 | 📋 **Laporan Statistik Inferensial** | `tabyl_to_statistical_report_console()`: Hasilkan uji Chi-square, Cramer's V, dan Odds Ratio langsung dari tabel kontingensi | Menjembatani pembersihan data dengan analisis statistik |
 | 🎨 **Visualisasi Profesional** | `ggheatmap_tabyl()` dan `plot_tabyl_sunburst_v2()`: Heatmap dan sunburst chart dari objek tabyl | Meningkatkan eksplorasi data dengan grafik siap publikasi |
 
-### Mengapa Penambahan Ini Dilakukan?
-
-| Penambahan | Alasan |
-|------------|--------|
-| **Konversi Mata Uang** | Banyak dataset dunia nyata melibatkan data keuangan antar negara. Tidak ada package R yang menggabungkan pembersihan data dengan konversi mata uang real-time. |
-| **Pipeline Pembersihan Otomatis** | Pengguna sering melakukan langkah pembersihan yang sama berulang kali. Otomatisasi ini menghemat waktu dan mengurangi kesalahan. |
-| **Dashboard Kesehatan Data** | Penilaian visual kualitas data lebih cepat dan intuitif daripada ringkasan numerik saja. |
-| **Laporan Statistik** | Setelah membersihkan data, pengguna biasanya ingin menguji hipotesis. Integrasi inferensi statistik mengurangi perpindahan konteks. |
-| **Visualisasi Profesional** | Komunikasi wawasan yang efektif membutuhkan grafik yang rapi. Fungsi ini membuatnya mudah. |
-
 ---
 
 ## 🔧 Instalasi
 
-Anda dapat menginstal versi pengembangan dari GitHub:
+Anda dapat menginstal:
+
+- versi pengembangan terbaru dari GitHub dengan:
 
 ```r
 # install.packages("remotes")

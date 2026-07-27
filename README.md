@@ -1,10 +1,8 @@
-<div style="display: flex; align-items: center; gap: 10px;">
-  <img src="man/figures/logo.png" width="80">
-  <div>
-    <h1 style="margin: 0;">janitorID</h1>
-    <p style="margin: 0;"><strong>Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data</strong></p>
-  </div>
-</div>
+<img src="man/figures/logo.png" width="80" align="left" style="margin-right: 10px; margin-top: -5px;">
+
+# janitorID
+
+**Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
 
 <br>
 

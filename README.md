@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="man/figures/logo.png" width="150">
+  <img src="man/figures/logo.png" width="120">
 </p>
 
 # janitorID

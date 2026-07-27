@@ -1,4 +1,4 @@
-<img src="man/figures/logo.png" width="120">
+<img src="man/figures/logo.png" width="90" align="left" style="margin-right: 10px;">
 
 # janitorID
 

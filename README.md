@@ -4,10 +4,6 @@
 
 **Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
 
-Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
-
-– "For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)
-
 [![R-CMD-check](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-%3E%3D%204.0.0-blue.svg)](https://www.r-project.org/)
@@ -15,6 +11,16 @@ Data scientists, according to interviews and expert estimates, spend from 50 per
 `janitorID` memiliki fungsi-fungsi sederhana untuk memeriksa dan membersihkan data kotor. Package ini dibangun dengan mempertimbangkan pengguna R pemula dan menengah serta dioptimalkan untuk kemudahan penggunaan. Pengguna R mahir sebenarnya sudah dapat melakukan banyak tugas ini, tetapi dengan `janitorID` mereka dapat melakukannya lebih cepat dan menghemat energi untuk hal-hal yang lebih menarik.
 
 ---
+
+Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
+
+– "For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)
+
+[![R-CMD-check](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml/badge.svg?branch=main)](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![R](https://img.shields.io/badge/R-%3E%3D%204.0.0-blue.svg)](https://www.r-project.org/)
+
+`janitorID` memiliki fungsi-fungsi sederhana untuk memeriksa dan membersihkan data kotor. Package ini dibangun dengan mempertimbangkan pengguna R pemula dan menengah serta dioptimalkan untuk kemudahan penggunaan. Pengguna R mahir sebenarnya sudah dapat melakukan banyak tugas ini, tetapi dengan `janitorID` mereka dapat melakukannya lebih cepat dan menghemat energi untuk hal-hal yang lebih menarik.
 
 Fungsi utama `janitorID`:
 

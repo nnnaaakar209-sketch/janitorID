@@ -1,4 +1,4 @@
-![janitorID Logo](man/figures/logo.png)
+<img src="man/figures/logo.png" width="100" align="left" style="margin-right: 15px;">
 
 # janitorID
 

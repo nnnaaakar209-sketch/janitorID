@@ -1,8 +1,8 @@
 # janitorID
 
-> **Extended Data Cleaning Toolkit with Currency Conversion & Health Analytics**
+> **Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data**
 
-Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
+Ilmuwan data, menurut wawancara dan perkiraan para ahli, menghabiskan 50 hingga 80 persen waktu mereka untuk pekerjaan yang lebih "membosankan": mengumpulkan dan membersihkan data sebelum data tersebut siap untuk dieksplorasi.
 
 – "For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)
 
@@ -12,48 +12,48 @@ Data scientists, according to interviews and expert estimates, spend from 50 per
 
 ---
 
-## 📌 What is janitorID?
+## 📌 Apa itu janitorID?
 
-`janitorID` is an **extension and modification** of the popular `janitor` package by Sam Firke. It inherits the core philosophy of `janitor`—simple, user-friendly functions for examining and cleaning dirty data—but adds **new capabilities** for currency analytics and automated data health assessment.
+`janitorID` adalah **ekstensi dan modifikasi** dari package `janitor` populer karya Sam Firke. Package ini mewarisi filosofi inti `janitor`—fungsi sederhana dan ramah pengguna untuk memeriksa dan membersihkan data kotor—namun menambahkan **kemampuan baru** untuk analisis mata uang dan penilaian kesehatan data otomatis.
 
-### What is Inherited from the Original `janitor` Package?
+### Apa yang Diwarisi dari Package `janitor` Asli?
 
-From the original `janitor` package, `janitorID` preserves:
+Dari package `janitor` asli, `janitorID` mempertahankan:
 
-| Feature | Description |
-|---------|-------------|
-| **Tabulation Tools** | `tabyl()` for creating frequency tables of one, two, or three variables |
-| **Data Cleaning Philosophy** | Simple, pipe-friendly functions for data preparation |
-| **Tidyverse Integration** | Seamless compatibility with `%>%` pipes and `dplyr` workflows |
-| **User-Friendliness** | Designed for both beginning and intermediate R users |
+| Fitur | Deskripsi |
+|-------|-----------|
+| **Alat Tabulasi** | `tabyl()` untuk membuat tabel frekuensi satu, dua, atau tiga variabel |
+| **Filosofi Pembersihan Data** | Fungsi sederhana yang kompatibel dengan pipe |
+| **Integrasi Tidyverse** | Kompatibilitas seamless dengan pipe `%>%` dan alur kerja `dplyr` |
+| **Ramah Pengguna** | Dirancang untuk pengguna R pemula hingga menengah |
 
-### What is Added/Modified in `janitorID`?
+### Apa yang Ditambahkan/Dimodifikasi di `janitorID`?
 
-`janitorID` extends the original `janitor` package with **five major new capabilities**:
+`janitorID` memperluas package `janitor` asli dengan **lima kemampuan baru**:
 
-| New Feature | Description | Why It Matters |
-|-------------|-------------|----------------|
-| 💱 **Real-Time Currency Conversion** | Convert values across 146 world currencies using live exchange rates from a free API | Enables financial and international data analysis without manual rate lookups |
-| 🧹 **Automated Data Cleaning Pipeline** | `auto_analyze()`: One-function solution for profiling, cleaning (missing values, outliers, duplicates), and reporting | Reduces repetitive data preparation work from hours to seconds |
-| 📊 **Health Dashboard** | `plot_data_health()`: Interactive visualization of missing patterns, outliers, correlations, and distributions | Provides instant visual assessment of data quality |
-| 📋 **Statistical Inference Reports** | `tabyl_to_statistical_report_console()`: Generate Chi-square tests, Cramer's V, and Odds Ratio directly from contingency tables | Bridges the gap between data cleaning and statistical analysis |
-| 🎨 **Professional Visualizations** | `ggheatmap_tabyl()` and `plot_tabyl_sunburst_v2()`: Heatmaps and sunburst charts from tabyl objects | Enhances exploratory data analysis with publication-ready graphics |
+| Fitur Baru | Deskripsi | Mengapa Penting |
+|------------|-----------|-----------------|
+| 💱 **Konversi Mata Uang Real-time** | Konversi nilai antar 146 mata uang dunia menggunakan kurs live dari API gratis | Memungkinkan analisis data keuangan dan internasional tanpa mencari kurs manual |
+| 🧹 **Pipeline Pembersihan Data Otomatis** | `auto_analyze()`: Satu fungsi untuk profiling, pembersihan (missing, outlier, duplikat), dan pelaporan | Mengurangi pekerjaan persiapan data berulang dari berjam-jam menjadi hitungan detik |
+| 📊 **Dashboard Kesehatan Data** | `plot_data_health()`: Visualisasi interaktif pola missing, outlier, korelasi, dan distribusi | Memberikan penilaian visual instan terhadap kualitas data |
+| 📋 **Laporan Statistik Inferensial** | `tabyl_to_statistical_report_console()`: Hasilkan uji Chi-square, Cramer's V, dan Odds Ratio langsung dari tabel kontingensi | Menjembatani pembersihan data dengan analisis statistik |
+| 🎨 **Visualisasi Profesional** | `ggheatmap_tabyl()` dan `plot_tabyl_sunburst_v2()`: Heatmap dan sunburst chart dari objek tabyl | Meningkatkan eksplorasi data dengan grafik siap publikasi |
 
-### Why These Additions Were Made?
+### Mengapa Penambahan Ini Dilakukan?
 
-| Addition | Rationale |
-|----------|-----------|
-| **Currency Conversion** | Many real-world datasets involve financial data across different countries. No existing R package combines data cleaning with real-time currency conversion. |
-| **Auto Cleaning Pipeline** | Users often perform the same cleaning steps repeatedly. This automation saves time and reduces errors. |
-| **Health Dashboard** | Visual assessment of data quality is faster and more intuitive than numerical summaries alone. |
-| **Statistical Reports** | After cleaning data, users typically want to test hypotheses. Integrating statistical inference reduces context switching. |
-| **Professional Visualizations** | Effective communication of insights requires polished graphics. These functions make it effortless. |
+| Penambahan | Alasan |
+|------------|--------|
+| **Konversi Mata Uang** | Banyak dataset dunia nyata melibatkan data keuangan antar negara. Tidak ada package R yang menggabungkan pembersihan data dengan konversi mata uang real-time. |
+| **Pipeline Pembersihan Otomatis** | Pengguna sering melakukan langkah pembersihan yang sama berulang kali. Otomatisasi ini menghemat waktu dan mengurangi kesalahan. |
+| **Dashboard Kesehatan Data** | Penilaian visual kualitas data lebih cepat dan intuitif daripada ringkasan numerik saja. |
+| **Laporan Statistik** | Setelah membersihkan data, pengguna biasanya ingin menguji hipotesis. Integrasi inferensi statistik mengurangi perpindahan konteks. |
+| **Visualisasi Profesional** | Komunikasi wawasan yang efektif membutuhkan grafik yang rapi. Fungsi ini membuatnya mudah. |
 
 ---
 
-## 🔧 Installation
+## 🔧 Instalasi
 
-You can install the development version from GitHub:
+Anda dapat menginstal versi pengembangan dari GitHub:
 
 ```r
 # install.packages("remotes")

@@ -1,14 +1,15 @@
-<p>
-  <img src="man/figures/logo.png" width="100" align="left">
+<p align="left">
+  <img src="man/figures/logo.png" width="100" align="left" style="margin-right: 15px;">
+  <h1>janitorID</h1>
+  <p><strong>Paket Pembersihan Data dengan Konversi Mata Uang & Analisis Kesehatan Data</strong></p>
 </p>
 
-<h1>janitorID</h1>
+<br clear="both">
 
-<p><strong>Paket Pembersihan Data dengan Konversi Mata Uang &amp; Analisis Kesehatan Data</strong></p>
+---
 
-<br clear="left">
+Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.
 
-Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time collecting and preparing unruly digital data before it can be explored for useful insights.
 – "For Big-Data Scientists, 'Janitor Work' Is Key Hurdle to Insight" (New York Times, 2014)
 
 [![R-CMD-check](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nnnaaakar209-sketch/janitorID/actions/workflows/R-CMD-check.yaml)
